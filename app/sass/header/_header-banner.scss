@@ -3,7 +3,7 @@
   position: relative;
   float: left;
   width: 100%;
-  background: url("../img/section-2-bg.png") no-repeat;
+  background: url("../img/section-2-bg.png") no-repeat 50% bottom;
   background-size: cover;
   h1 {
     display: block;
@@ -33,11 +33,14 @@
     position: relative;
     float: left;
     width: 100%;
-
     h3 {
       font-size: 25px;
       color: #2b425b;
       text-transform: uppercase;
+      span{
+        color: #262626;
+        font-weight: 400;
+      }
     }
     img {
       position: absolute;
