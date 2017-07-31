@@ -3,5 +3,75 @@
   position: relative;
   float: left;
   width: 100%;
-  background: url("../img/line-bg-section-3.png");
+  background: url("../img/line-bg-section-3.png") no-repeat;
+  background-size: contain;
+  &__auto{
+    display: block;
+    position: relative;
+    top: -32px;
+    float: left;
+    margin-right: 80px;
+    width: 474px;
+    img{
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  &__text{
+    display: block;
+    position: relative;
+    float: left;
+    width: calc(100% - 554px);
+    h2{
+      text-align: left;
+      font-weight: 800;
+      font-size: 23px;
+      text-transform: uppercase;
+      &:after{
+        position: absolute;
+        width: 400px;
+        border-bottom: 5px solid #4f7cfe;
+        top: 53px;
+        left: -80px;
+        content: "";
+      }
+    }
+    p{
+      color: #262626;
+      font-size: 16px;
+      margin:  25px 0;
+    }
+  }
+  &__item-wrapper{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    &__item{
+      width: 250px;
+      position: relative;
+      text-align: center;
+      h4{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 800;
+        position: absolute;
+        top: 25px;
+        left: 26px;
+        color: #262626;
+        margin: 0;
+        span{
+          font-size: 55px;
+        }
+      }
+      p{
+        margin-bottom: 60px;
+        span{
+          font-weight: 700;
+          text-transform: uppercase;
+          display: block;
+        }
+      }
+    }
+  }
 }

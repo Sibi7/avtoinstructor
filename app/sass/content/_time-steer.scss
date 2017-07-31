@@ -1,0 +1,60 @@
+.time-steer{
+  display: block;
+  position: relative;
+  width: 100%;
+  float: left;
+  background: #8eabff url("../img/line-bg-section-4.png") no-repeat center center;
+  background-size: contain;
+  &__title{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 975px;
+    h1{
+      font-size: 95px;
+      color: #110f02;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: $bebas-Book;
+      margin-bottom: 0;
+      span{
+        font-family: $bebasBold;
+      }
+    }
+    p{
+      color: #110f02;
+      font-size: 30px;
+      line-height: 54px;
+      text-transform: uppercase;
+      font-weight: 700;
+      span{
+        font-weight: 400;
+      }
+    }
+  }
+  &__social{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-left: 160px;
+    box-sizing: border-box;
+    margin-bottom: 160px;
+    a{
+      color: #110f02;
+      display: inline-block;
+      margin-right: 78px;
+    }
+  }
+  &__absolute{
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 42px;
+    width: 613px;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
