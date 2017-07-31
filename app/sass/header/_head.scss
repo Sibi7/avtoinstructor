@@ -1,0 +1,40 @@
+.header {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  &__menu {
+    float: right;
+    display: block;
+    position: relative;
+    width: 600px;
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-left: 38px;
+        padding: 42px 0;
+        color: #262626;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        a {
+          color: #262626;
+        }
+      }
+    }
+  }
+  &__logo {
+    display: block;
+    position: relative;
+    float: left;
+    width: 250px;
+    padding-top: 27px;
+    img{
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
