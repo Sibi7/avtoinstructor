@@ -11,7 +11,61 @@
 }
 
 @media only screen and (max-width: 736px) {
-	
+  .header__menu {
+    display: none;
+    float: left;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    margin-left: -15px;
+    height: 100vh;
+    background: rgba(78, 124, 255, .9);
+  }
+  .header__logo {
+    width: 230px;
+    padding: 22px 0;
+  }
+  .header__menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: initial;
+    position: relative;
+    top: 25%;
+    li{
+      display: block;
+      text-align: center;
+      line-height: inherit;
+      padding: 14px 0;
+      float: none;
+      margin-left: 0;
+      a{
+        color: #fff;
+      }
+    }
+  }
+  .header-banner h1 {
+    float: none;
+    text-align: center;
+    font-size: 25px;
+  }
+  .header-banner form img {
+    display: none;
+  }
+  .header-banner h2 {
+    font-size: 67px;
+  }
+  .header-banner form h3 {
+    text-align: center;
+  }
+  .header-banner form{
+    text-align: center;
+  }
+  .header-banner__button1 {
+    margin-left: 0;
+    margin-bottom: 56px;
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
