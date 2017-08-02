@@ -9,8 +9,10 @@
     display: block;
     position: relative;
     float: right;
+    margin-bottom: 0;
     font-weight: 800;
     text-transform: uppercase;
+    color: #595b5f;
     font-size: 49px;
     border-bottom: 5px #4e7cff solid;
     span {
@@ -46,7 +48,7 @@
     img {
       position: absolute;
       display: block;
-      top: -81px;
+      top: -103px;
       right: -49px;
     }
   }
@@ -72,6 +74,6 @@
     font-size: 13px;
     text-transform: uppercase;
     margin-left: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 79px;
   }
 }

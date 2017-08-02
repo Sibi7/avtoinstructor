@@ -3,8 +3,10 @@
   position: relative;
   width: 100%;
   float: left;
-  background: #8eabff url("../img/line-bg-section-4.png") no-repeat center center;
-  background-size: contain;
+  background: #8eabff url("../img/line-bg-section-4.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 50px;
   &__title{
     display: block;
     margin: 0 auto;

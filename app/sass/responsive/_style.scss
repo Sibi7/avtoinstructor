@@ -1,25 +1,32 @@
-@media only screen and (max-width: 1024px) {
-	
+@media only screen and (max-width: 1200px) {
+  .header-banner h2 {
+    font-size: 166px;
+  }
+  .header-banner form img {
+    top: -73px;
+    right: -49px;
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 980px) {
-	
-}
-
-@media only screen and (max-width: 770px) {
-	
-}
-
-@media only screen and (max-width: 736px) {
   .header__menu {
     display: none;
     float: left;
     width: 100%;
     position: fixed;
-    z-index: 5;
+    z-index: 6;
     margin-left: -15px;
     height: 100vh;
     background: rgba(78, 124, 255, .9);
+  }
+  .footer__menu {
+    display: none;
+  }
+  .footer__logo {
+    width: 100%;
+    padding-top: 27px;
+    margin-bottom: 27px;
   }
   .header__logo {
     width: 230px;
@@ -66,6 +73,124 @@
     margin-bottom: 56px;
     margin-top: 20px;
   }
+  .experienced-instructor__auto {
+    top: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .experienced-instructor__text {
+    width: 100%;
+    h2{
+      font-size: 20px;
+      text-align: center;
+      &:after{
+        position: absolute;
+        width: 100%;
+        border-bottom: 5px solid #4f7cfe;
+        top: 53px;
+        left: 0;
+        content: "";
+      }
+    }
+    p {
+      text-align: center;
+    }
+  }
+  .experienced-instructor__item-wrapper{
+    flex-direction: column;
+
+  }
+  .experienced-instructor__item-wrapper__item{
+    width: 100%;
+  }
+  .time-steer__absolute {
+    display: none;
+  }
+  .time-steer__social {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    a{
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+  .time-steer__title {
+    margin: 0 auto;
+    width: 100%;
+    h1{
+      font-size: 60px;
+    }
+  }
+  .time-steer__title p {
+    color: #110f02;
+    font-size: 27px;
+    text-align: center;
+  }
+  .go-hyundai__wrapper {
+    width: 100%;
+    h2{
+      font-size: 27px;
+    }
+  }
+  .go-hyundai__wrapper__item {
+    width: 100%;
+  }
+  .go-hyundai__wrapper__item:last-child {
+    width: 100%;
+  }
+  .go-hyundai__wrapper__item table {
+    margin: 0 auto;
+  }
+  .go-hyundai__wrapper__item button {
+    margin: 30px auto;
+    display: block;
+  }
+  .advantages__absolute {
+    display: none;
+  }
+  .advantages__absolute2 {
+    display: none;
+  }
+  .reviews .owl-dots {
+    display: none!important;
+  }
+  .advantages__wrapper {
+    flex-direction: column;
+  }
+  .owl-nav {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .autodrome__wrapper {
+    width: 100%;
+  }
+  .autodrome__wrapper img {
+    width: 100%;
+    bottom: 0;
+  }
+  .autodrome__wrapper:last-child {
+    width: 100%;
+  }
+  .autodrome__wrapper h2:before {
+    background-color: #507dfe;
+    width: 100%;
+  }
+  .autodrome__wrapper p{
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+	
+}
+
+@media only screen and (max-width: 736px) {
+
 }
 
 @media only screen and (max-width: 500px) {
